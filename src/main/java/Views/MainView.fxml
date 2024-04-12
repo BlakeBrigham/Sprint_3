@@ -30,7 +30,7 @@
             <TextField />
             <Button mnemonicParsing="false" onAction="#OnClickLogin" text="Login">
                <font>
-                  <Font size="18.0" />
+                  <Font size="14.0" />
                </font>
             </Button>
          </children>
