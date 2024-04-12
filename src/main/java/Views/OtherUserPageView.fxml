@@ -53,7 +53,7 @@
             </ImageView>
          </left>
          <right>
-            <Button fx:id="editButton" mnemonicParsing="false" prefHeight="46.0" prefWidth="70.0" text="EDIT" BorderPane.alignment="CENTER">
+            <Button fx:id="followButton" mnemonicParsing="false" prefHeight="46.0" prefWidth="102.0" text="FOLLOW" BorderPane.alignment="CENTER">
                <font>
                   <Font size="16.0" />
                </font>
