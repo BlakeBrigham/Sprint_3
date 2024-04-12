@@ -10,23 +10,36 @@
 
 <BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.MainController">
    <top>
-      <HBox prefHeight="42.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER" prefHeight="52.0" prefWidth="600.0" BorderPane.alignment="CENTER">
          <children>
-            <Label alignment="CENTER" text="Logo">
-               <font>
-                  <Font size="30.0" />
-               </font>
-            </Label>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label text="Nexus">
+                     <font>
+                        <Font size="36.0" />
+                     </font>
+                  </Label>
+               </children></HBox>
          </children>
       </HBox>
    </top>
    <center>
-      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="TOP_LEFT">
          <children>
             <TextField />
             <TextField />
-            <Button mnemonicParsing="false" onAction="#OnClickLogin" text="Login" />
+            <Button mnemonicParsing="false" onAction="#OnClickLogin" text="Login">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
          </children>
       </VBox>
    </center>
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
 </BorderPane>
