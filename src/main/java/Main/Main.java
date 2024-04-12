@@ -19,6 +19,7 @@ public class Main extends Application {
 		MainController cont = loader.getController();
 		ViewTransitionalModel vm = new ViewTransitionalModel(view);
 		cont.setModel(vm);
+		vm.showLoginView();
 		
 		Scene s = new Scene(view);
 		stage.setScene(s);
