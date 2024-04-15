@@ -7,7 +7,24 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+<BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.MainController">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField prefWidth="250.0" />
+            <TextField />
+            <Button mnemonicParsing="false" onAction="#onClickLogin" text="Login" />
+         </children>
+      </VBox>
+   </center>
+=======
+<BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+>>>>>>> 76f6269f609b7e7445d396c18b1d64f111a90cb0
+=======
 <BorderPane fx:id="LoginViewContent" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+>>>>>>> ae56c74e30f6fd734c2cdda59904951515946572
    <top>
       <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
    </top>
