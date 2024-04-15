@@ -8,6 +8,7 @@
 <?import javafx.scene.text.Font?>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 <BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.MainController">
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
@@ -21,6 +22,9 @@
 =======
 <BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
 >>>>>>> 76f6269f609b7e7445d396c18b1d64f111a90cb0
+=======
+<BorderPane fx:id="LoginViewContent" prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+>>>>>>> ae56c74e30f6fd734c2cdda59904951515946572
    <top>
       <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
    </top>
@@ -36,9 +40,9 @@
    <center>
       <VBox prefHeight="200.0" prefWidth="100.0" spacing="50.0" BorderPane.alignment="CENTER">
          <children>
-            <TextField prefHeight="20.0" prefWidth="400.0" promptText="Enter your Username..." />
-            <TextField promptText="Enter your password..." />
-            <Button fx:id="loginButton" mnemonicParsing="false" onAction="#OnClickLogin" text="Login">
+            <TextField fx:id="LoginViewUsernameField" prefHeight="20.0" prefWidth="400.0" promptText="Enter your Username..." />
+            <TextField fx:id="LoginViewPasswordField" promptText="Enter your password..." />
+            <Button fx:id="LoginViewLoginButton" mnemonicParsing="false" onAction="#OnClickLogin" text="Login">
                <font>
                   <Font size="14.0" />
                </font>
