@@ -6,4 +6,5 @@ public interface ViewTransitionalModelInterface
 	public void showHomePageView();
 	public void showSidebarView();
 	public void showHomeView();
+	public void showLoginView();
 }

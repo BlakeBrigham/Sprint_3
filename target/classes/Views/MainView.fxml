@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<<<<<<< HEAD
+=======
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
+>>>>>>> 76f6269f609b7e7445d396c18b1d64f111a90cb0
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
-<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
 <BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.MainController">
@@ -24,6 +25,8 @@
          </children>
       </HBox>
    </top>
+<<<<<<< HEAD
+=======
    <center>
       <BorderPane fx:id="MainViewContent" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
          <center>
@@ -50,4 +53,14 @@
          </right>
       </BorderPane>
    </center>
+<<<<<<< HEAD
+   <left>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER" />
+   </right>
+>>>>>>> 76f6269f609b7e7445d396c18b1d64f111a90cb0
+=======
+>>>>>>> ae56c74e30f6fd734c2cdda59904951515946572
 </BorderPane>
