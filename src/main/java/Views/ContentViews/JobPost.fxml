@@ -25,7 +25,7 @@
                         </Text>
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="XX Likes">
                            <HBox.margin>
-                              <Insets left="100.0" top="25.0" />
+                              <Insets left="25.0" top="25.0" />
                            </HBox.margin>
                         </Text>
                         <Button mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Like">
@@ -35,7 +35,7 @@
                         </Button>
                         <Text strokeType="OUTSIDE" strokeWidth="0.0" text="XX Comments">
                            <HBox.margin>
-                              <Insets left="50.0" top="25.0" />
+                              <Insets left="25.0" top="25.0" />
                            </HBox.margin>
                         </Text>
                         <Button mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="See Comments">
@@ -44,6 +44,11 @@
                            </opaqueInsets>
                            <HBox.margin>
                               <Insets left="30.0" top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Apply">
+                           <HBox.margin>
+                              <Insets left="60.0" top="20.0" />
                            </HBox.margin>
                         </Button>
                      </children>
