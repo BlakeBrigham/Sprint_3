@@ -29,12 +29,12 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Label text="Michael K. Bradshaw" wrapText="true">
+                  <Label fx:id="name" text="Michael K. Bradshaw" wrapText="true">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label text="Comp Sci Prof @ Centre College" wrapText="true" GridPane.columnIndex="1">
+                  <Label fx:id="jobTitle" text="Comp Sci Prof @ Centre College" wrapText="true" GridPane.columnIndex="1">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -46,14 +46,14 @@
             </GridPane>
          </center>
          <left>
-            <ImageView fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <ImageView fx:id="profilePicture" fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
                <image>
                   <Image url="@../../../../../../Downloads/bradshaw.jpg" />
                </image>
             </ImageView>
          </left>
          <right>
-            <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="70.0" text="EDIT" BorderPane.alignment="CENTER">
+            <Button fx:id="editButton" mnemonicParsing="false" prefHeight="46.0" prefWidth="70.0" text="EDIT" BorderPane.alignment="CENTER">
                <font>
                   <Font size="16.0" />
                </font>
@@ -64,27 +64,27 @@
    <right>
       <TilePane prefHeight="520.0" prefWidth="121.0" vgap="40.0" BorderPane.alignment="CENTER">
          <children>
-            <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Followers">
+            <Button fx:id="followersButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Followers">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Following">
+            <Button fx:id="followingButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Following">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Posts">
+            <Button fx:id="postsButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Posts">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Description">
+            <Button fx:id="descButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Description">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Jobs">
+            <Button fx:id="jobsButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Jobs">
                <font>
                   <Font size="16.0" />
                </font>
