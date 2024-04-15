@@ -52,6 +52,25 @@ public class ViewTransitionalModel implements ViewTransitionalModelInterface {
 		
 
 	}
+	
+	@Override
+	public void showSidebarView()
+	{
+		FXMLLoader loader = new FXMLLoader();
+		loader.setLocation(ViewTransitionalModel.class
+				.getResource("../Views/SidebarView.fxml"));
+		try
+		{
+			Node view = loader.load();
+			mainview.setCenter(view);
+		} catch (IOException e)
+		{
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+
+	}
 
 
 	@Override
