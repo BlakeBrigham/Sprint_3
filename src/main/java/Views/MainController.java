@@ -16,22 +16,9 @@ public class MainController {
 	
 	@FXML
     void OnClickLogin(ActionEvent event) {
-		model.showUserPageView();
+		model.showSidebarView();
+		
 		System.out.println("Login clicked");
     }
-	
-	
-	@FXML
-	void onClickHome(ActionEvent event)
-	{
-		System.out.println("Home clicked");
-	}
-	
-	@FXML
-	void onClickProfile(ActionEvent event)
-	{
-		System.out.println("Profile clicked");
-	}
-	
 	
 }

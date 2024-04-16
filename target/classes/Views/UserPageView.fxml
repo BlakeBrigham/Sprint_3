@@ -11,11 +11,12 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane prefHeight="600.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Views.UserPageViewController">
    <center>
-      <ListView prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+      <ListView fx:id="UserPageViewContentList" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
    </center>
    <top>
       <BorderPane prefHeight="52.0" prefWidth="600.0" BorderPane.alignment="CENTER">
@@ -29,12 +30,12 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <Label fx:id="name" text="Michael K. Bradshaw" wrapText="true">
+                  <Label fx:id="UserPageViewName" text="Michael K. Bradshaw" wrapText="true">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Label>
-                  <Label fx:id="jobTitle" text="Comp Sci Prof @ Centre College" wrapText="true" GridPane.columnIndex="1">
+                  <Label fx:id="UserPageViewJobTitle" text="Comp Sci Prof @ Centre College" wrapText="true" GridPane.columnIndex="1">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -46,45 +47,54 @@
             </GridPane>
          </center>
          <left>
-            <ImageView fx:id="profilePicture" fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+            <ImageView fx:id="UserPageViewProfilePicture" fitHeight="80.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
                <image>
                   <Image url="@../../../../../../Downloads/bradshaw.jpg" />
                </image>
             </ImageView>
          </left>
          <right>
-            <Button fx:id="editButton" mnemonicParsing="false" prefHeight="46.0" prefWidth="70.0" text="EDIT" BorderPane.alignment="CENTER">
-               <font>
-                  <Font size="16.0" />
-               </font>
-            </Button>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="UserPageViewEditButton" mnemonicParsing="false" prefHeight="39.0" prefWidth="70.0" text="EDIT">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="UserPageViewFollowButton" mnemonicParsing="false" prefHeight="40.0" prefWidth="86.0" text="FOLLOW">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
          </right>
       </BorderPane>
    </top>
    <right>
       <TilePane prefHeight="520.0" prefWidth="121.0" vgap="40.0" BorderPane.alignment="CENTER">
          <children>
-            <Button fx:id="followersButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Followers">
+            <Button fx:id="UserPageViewFollowersButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Followers">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="followingButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Following">
+            <Button fx:id="UserPageViewFollowingButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Following">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="postsButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Posts">
+            <Button fx:id="UserPageViewPostsButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Posts">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="descButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Description">
+            <Button fx:id="UserPageViewDescButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Description">
                <font>
                   <Font size="16.0" />
                </font>
             </Button>
-            <Button fx:id="jobsButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Jobs">
+            <Button fx:id="UserPageViewJobsButton" mnemonicParsing="false" prefHeight="54.0" prefWidth="123.0" text="Jobs">
                <font>
                   <Font size="16.0" />
                </font>

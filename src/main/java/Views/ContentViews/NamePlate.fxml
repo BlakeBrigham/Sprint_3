@@ -5,57 +5,65 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
-<BorderPane xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <top>
-      <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="111.0" prefWidth="726.0" BorderPane.alignment="CENTER">
+      <StackPane minHeight="-Infinity" minWidth="-Infinity">
          <children>
-            <StackPane prefHeight="115.0" prefWidth="115.0">
+            <Pane>
                <children>
-                  <ImageView fitHeight="115.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true" />
-                  <Circle fill="DODGERBLUE" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
-               </children>
-            </StackPane>
-            <VBox prefHeight="400.0" prefWidth="402.0">
-               <children>
-                  <VBox prefHeight="200.0" prefWidth="100.0">
+                  <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="111.0" prefWidth="726.0">
                      <children>
-                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                        <StackPane prefHeight="115.0" prefWidth="115.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="John Smith">
-                                 <font>
-                                    <Font size="21.0" />
-                                 </font>
-                              </Text>
-                              <HBox prefHeight="100.0" prefWidth="200.0" />
-                              <Button alignment="CENTER_RIGHT" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Follow" HBox.hgrow="NEVER">
-                                 <HBox.margin>
-                                    <Insets />
-                                 </HBox.margin>
-                              </Button>
+                              <ImageView fitHeight="115.0" fitWidth="115.0" pickOnBounds="true" preserveRatio="true" />
+                              <Circle fill="DODGERBLUE" radius="53.0" stroke="BLACK" strokeType="INSIDE" />
                            </children>
-                        </HBox>
-                        <HBox prefHeight="100.0" prefWidth="200.0">
+                        </StackPane>
+                        <VBox prefHeight="400.0" prefWidth="402.0">
                            <children>
-                              <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Distinguished Senior Vice-Fellow at Appamagoolesoftflixforce">
-                                 <font>
-                                    <Font size="19.0" />
-                                 </font>
-                              </Text>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="John Smith">
+                                             <font>
+                                                <Font size="21.0" />
+                                             </font>
+                                          </Text>
+                                          <HBox prefHeight="100.0" prefWidth="200.0" />Follow
+                                          <Button alignment="CENTER_RIGHT" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="" HBox.hgrow="NEVER">
+                                             <HBox.margin>
+                                                <Insets left="200.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Distinguished Senior Vice-Fellow at Appamagoolesoftflixforce">
+                                             <font>
+                                                <Font size="19.0" />
+                                             </font>
+                                          </Text>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
                            </children>
-                        </HBox>
+                        </VBox>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" />
                      </children>
-                  </VBox>
+                  </HBox>
                </children>
-            </VBox>
-            <BorderPane prefHeight="200.0" prefWidth="200.0" />
+            </Pane>
          </children>
-      </HBox>
+      </StackPane>
    </top>
 </BorderPane>

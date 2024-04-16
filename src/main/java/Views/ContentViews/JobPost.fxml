@@ -18,32 +18,37 @@
                <children>
                   <HBox prefHeight="76.0" prefWidth="600.0">
                      <children>
-                        <Text id="PostDateMade" strokeType="OUTSIDE" strokeWidth="0.0" text="MONTH NUM YEAR">
+                        <Text id="JobPostDateMade" strokeType="OUTSIDE" strokeWidth="0.0" text="MONTH NUM YEAR">
                            <HBox.margin>
                               <Insets left="15.0" top="25.0" />
                            </HBox.margin>
                         </Text>
-                        <Text id="PostLikeCount" strokeType="OUTSIDE" strokeWidth="0.0" text="XX Likes">
+                        <Text id="JobPostLikeCount" strokeType="OUTSIDE" strokeWidth="0.0" text="XX Likes">
                            <HBox.margin>
-                              <Insets left="100.0" top="25.0" />
+                              <Insets left="25.0" top="25.0" />
                            </HBox.margin>
                         </Text>
-                        <Button id="PostLikePostButton" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Like">
+                        <Button id="JobPostLikeButton" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Like">
                            <HBox.margin>
                               <Insets left="15.0" top="20.0" />
                            </HBox.margin>
                         </Button>
-                        <Text id="PostCommentCount" strokeType="OUTSIDE" strokeWidth="0.0" text="XX Comments">
+                        <Text id="JobPostCommentCount" strokeType="OUTSIDE" strokeWidth="0.0" text="XX Comments">
                            <HBox.margin>
-                              <Insets left="50.0" top="25.0" />
+                              <Insets left="25.0" top="25.0" />
                            </HBox.margin>
                         </Text>
-                        <Button id="PostSeeCommentsButton" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="See Comments">
+                        <Button id="JobPostSeeCommentsButton" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="See Comments">
                            <opaqueInsets>
                               <Insets />
                            </opaqueInsets>
                            <HBox.margin>
                               <Insets left="30.0" top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Button id="JobPostApplyButton" mnemonicParsing="false" scaleX="1.5" scaleY="1.5" text="Apply">
+                           <HBox.margin>
+                              <Insets left="60.0" top="20.0" />
                            </HBox.margin>
                         </Button>
                      </children>
@@ -56,7 +61,7 @@
    <center>
       <VBox BorderPane.alignment="CENTER">
          <children>
-            <Text id="PostContent" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.&quot;" wrappingWidth="601.13671875">
+            <Text id="JobPostContent" strokeType="OUTSIDE" strokeWidth="0.0" text="&quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.&quot;" wrappingWidth="601.13671875">
                <VBox.margin>
                   <Insets />
                </VBox.margin>
