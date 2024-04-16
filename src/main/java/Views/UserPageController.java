@@ -7,7 +7,7 @@ import javafx.scene.control.TextField;
 import Models.UserModel;
 
 
-public class UserPageViewController
+public class UserPageController
 {
 	ViewTransitionalModelInterface model;
 	

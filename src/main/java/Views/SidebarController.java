@@ -27,19 +27,22 @@ public class SidebarController {
 	void onClickHome(ActionEvent event)
 	{
 		System.out.println("Home clicked");
-		model.showUserPageView();
+		model.showHomePageView();
+		
 	}
 	
 	@FXML
 	void onClickFeed(ActionEvent event)
 	{
 		System.out.println("Profile clicked");
+		
 	}
 	
 	@FXML
 	void onClickProfile(ActionEvent event)
 	{
 		System.out.println("Profile clicked");
+		model.showUserPageView();
 	}
 	
 	

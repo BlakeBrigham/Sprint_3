@@ -5,7 +5,7 @@ import Models.ViewTransitionalModelInterface;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
-public class MainController {
+public class LogInController {
 
 	ViewTransitionalModelInterface model;
 	
