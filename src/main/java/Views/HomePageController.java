@@ -1,6 +1,7 @@
 package Views;
 
-import Models.ViewTransitionalModelInterface;
+import Models.HomePageVTM;
+import Models.LogInSideBarVTMInterface;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
@@ -9,9 +10,9 @@ import Models.UserModel;
 
 public class HomePageController
 {
-	HomePageViewTransitionModel model;
+	HomePageVTM model;
 	
-	public void setModel(HomePageViewTransitionModel newModel)
+	public void setModel(HomePageVTM newModel)
 	{
 		model = newModel;
 	}

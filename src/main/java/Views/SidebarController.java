@@ -1,15 +1,15 @@
 package Views;
 
 
-import Models.ViewTransitionalModelInterface;
+import Models.LogInSideBarVTMInterface;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 
 public class SidebarController {
 
-	ViewTransitionalModelInterface model;
+	LogInSideBarVTMInterface model;
 	
-	public void setModel(ViewTransitionalModelInterface newModel)
+	public void setModel(LogInSideBarVTMInterface newModel)
 	{
 		model = newModel;
 	}
