@@ -1,6 +1,6 @@
 package Views;
 
-import Models.HomePageVTM;
+import Models.LogInSideBarVTM;
 import Models.LogInSideBarVTMInterface;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -10,9 +10,9 @@ import Models.UserModel;
 
 public class HomePageController
 {
-	HomePageVTM model;
+	LogInSideBarVTM model;
 	
-	public void setModel(HomePageVTM newModel)
+	public void setModel(LogInSideBarVTM newModel)
 	{
 		model = newModel;
 	}

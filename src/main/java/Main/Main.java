@@ -2,7 +2,8 @@ package Main;
 
 import java.io.IOException;
 
-import Models.ViewTransitionalModel;
+import Models.LogInSideBarVTM;
+import Views.LogInController;
 import Views.MainController;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -21,8 +22,8 @@ public class Main extends Application {
 		BorderPane view = loader.load();
 		
 		System.out.println("Login clicked");
-		MainController cont = loader.getController();
-		ViewTransitionalModel vm = new ViewTransitionalModel(view);
+		LogInController cont = loader.getController();
+		LogInSideBarVTM vm = new LogInSideBarVTM(view);
 		cont.setModel(vm);
 		vm.showLoginView();
 		

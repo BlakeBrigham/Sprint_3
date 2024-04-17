@@ -7,11 +7,11 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.layout.BorderPane;
 
-public class ViewTransitionalModel implements ViewTransitionalModelInterface {
+public class LogInSideBarVTM implements LogInSideBarVTMInterface {
 
 	BorderPane mainview;
 	
-	public ViewTransitionalModel(BorderPane view)
+	public LogInSideBarVTM(BorderPane view)
 	{
 		mainview = view;
 	}
@@ -21,7 +21,7 @@ public class ViewTransitionalModel implements ViewTransitionalModelInterface {
 	public void showHomePageView()
 	{
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(ViewTransitionalModel.class
+		loader.setLocation(LogInSideBarVTM.class
 				.getResource("../Views/HomePageView.fxml"));
 		try
 		{
@@ -38,7 +38,7 @@ public class ViewTransitionalModel implements ViewTransitionalModelInterface {
 	public void showHomeView()
 	{
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(ViewTransitionalModel.class
+		loader.setLocation(LogInSideBarVTM.class
 				.getResource("../Views/HomeView.fxml"));
 		try
 		{
@@ -55,7 +55,7 @@ public class ViewTransitionalModel implements ViewTransitionalModelInterface {
 	public void showSidebarView()
 	{
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(ViewTransitionalModel.class
+		loader.setLocation(LogInSideBarVTM.class
 				.getResource("../Views/SidebarView.fxml"));
 		try
 		{
@@ -77,7 +77,7 @@ public class ViewTransitionalModel implements ViewTransitionalModelInterface {
 	public void showUserPageView()
 	{
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(ViewTransitionalModel.class
+		loader.setLocation(LogInSideBarVTM.class
 				.getResource("../Views/UserPageView.fxml"));
 		try
 		{
@@ -94,7 +94,7 @@ public class ViewTransitionalModel implements ViewTransitionalModelInterface {
 	public void showLoginView()
 	{
 		FXMLLoader loader = new FXMLLoader();
-		loader.setLocation(ViewTransitionalModel.class
+		loader.setLocation(LogInSideBarVTM.class
 				.getResource("../Views/LoginView.fxml"));
 		try
 		{

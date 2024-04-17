@@ -1,6 +1,6 @@
 package Models;
 
-public interface ViewTransitionalModelInterface 
+public interface LogInSideBarVTMInterface 
 {
 	public void showUserPageView();
 	public void showHomePageView();
